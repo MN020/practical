@@ -103,7 +103,7 @@ Department of Computer Engineering Subject : DSBDAL
 relationship. We can customise the scatter plot into a hexagonal plot, where, the
 more the colour intensity, the more will be the number of observations.
 
-<h1>Histoplot<h1>
+<h1>Histoplot</h1>
 In Seaborn, histplot is a function that allows you to create a histogram to visualize the distribution of a univariate (single-variable) dataset. It provides a convenient way to understand the frequency or count of observations falling into different bins or intervals.By default, histplot automatically determines the appropriate number of bins based on the data range and distribution. However, you can customize the number of bins by specifying the bins parameter in the function call.
 The resulting histogram displays the count or frequency of observations falling within each bin. The x-axis represents the variable values, and the y-axis represents the count or frequency.
 histplot in Seaborn offers additional options and parameters to customize the appearance of the histogram, such as specifying color, adding a kernel density estimate, adjusting bin width, adding labels, and more. 
