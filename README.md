@@ -52,7 +52,8 @@ word depending on its meaning and context. Lemmatization usually refers to the
 morphological analysis of words, which aims to remove inflectional endings. It
 helps in returning the base or dictionary form of a word known as the lemma.
 Eg. Lemma for studies is study
-Lemmatization Vs Stemming
+
+<h1>Lemmatization Vs Stemming</h1>
 Stemming algorithm works by cutting the suffix from the word. In a broader sense
 cuts either the beginning or end of the word.
 On the contrary, Lemmatization is a more powerful operation, and it takes into
@@ -73,3 +74,46 @@ Word can have more than one POS depending upon the context where it is used.
 We can use POS tags as statistical NLP tasks. It distinguishes a sense of word
 which is very helpful in text realization and infer semantic information from text
 for sentiment analysis.
+
+Data Visualisation plays a very important role in Data mining. Various data scientists spent their
+time exploring data through visualisation. To accelerate this process we need to have a
+well-documentation of all the plots.
+Even plenty of resources can’t be transformed into valuable goods without planning and
+architecture
+<h1>1. Seaborn Library Basics</h1>
+Seaborn is a Python data visualisation library based on matplotlib. It provides a
+high-level interface for drawing attractive and informative statistical graphics.
+
+<h1>2. Know your data</h1>
+The dataset that we are going to use to draw our plots will be the Titanic dataset, which is
+downloaded by default with the Seaborn library. All you have to do is use the load_dataset
+function and pass it the name of the dataset.
+The dataset contains 891 rows and 15 columns and contains information about the passengers
+who boarded the unfortunate Titanic ship. The original task is to predict whether or not the
+passenger survived depending upon different features such as their age, ticket, cabin they
+boarded, the class of the ticket, etc. We will use the Seaborn library to see if we can find any
+patterns in the data.
+
+<h1>Joint Plot</h1>
+● It is the combination of the distplot of two variables.
+● It is an example of bivariate analysis.
+SNJB’s Late Sau. K B Jain College of Engineering, Chandwad Dist. Nashik, MS
+Department of Computer Engineering Subject : DSBDAL
+● We additionally obtain a scatter plot between the variables to reflect their linear
+relationship. We can customise the scatter plot into a hexagonal plot, where, the
+more the colour intensity, the more will be the number of observations.
+
+<h1>Histoplot<h1>
+In Seaborn, histplot is a function that allows you to create a histogram to visualize the distribution of a univariate (single-variable) dataset. It provides a convenient way to understand the frequency or count of observations falling into different bins or intervals.By default, histplot automatically determines the appropriate number of bins based on the data range and distribution. However, you can customize the number of bins by specifying the bins parameter in the function call.
+The resulting histogram displays the count or frequency of observations falling within each bin. The x-axis represents the variable values, and the y-axis represents the count or frequency.
+histplot in Seaborn offers additional options and parameters to customize the appearance of the histogram, such as specifying color, adding a kernel density estimate, adjusting bin width, adding labels, and more. 
+
+<h1>The Box Plot</h1>
+The box plot is used to display the distribution of the categorical data in the form of quartiles.
+The centre of the box shows the median value. The value from the lower whisker to the bottom
+of the box shows the first quartile. From the bottom of the box to the middle of the box lies the
+second quartile. From the middle of the box to the top of the box lies the third quartile and finally
+from the top of the box to the top whisker lies the last quartile.
+Now let's plot a box plot that displays the distribution for the age with respect to each gender.
+You need to pass the categorical column as the first parameter (which is sex in our case) and the
+numeric column (age in our case) as the second parameter.
